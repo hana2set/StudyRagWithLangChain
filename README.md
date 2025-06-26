@@ -1,9 +1,12 @@
-### [2025. 06.26] 기준 RAG python 예제 수록
-- GPT-4 대신 HuggingFace, Gemini-2.5 적극 사용 (무료)
-  - ollama로 기본 구성하려 했으나 PC 메모리 부족으로 일부만 사용
-- `Anaconda3`, `VSCode`, `jupyter`로 개발 환경 구성
-- `streamlit` 으로 클라이언트 구성
-- 참고: [study/book/랭체인으로 LLM 기반의 AI 서비스 개발하기.md](https://github.com/hana2set/study/blob/main/%EA%B8%B0%ED%83%80/book/%EB%9E%AD%EC%B2%B4%EC%9D%B8%EC%9C%BC%EB%A1%9C%20LLM%20%EA%B8%B0%EB%B0%98%EC%9D%98%20AI%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0.md)
+# RAG Pyhton Langchain 예제 모음 (2025.06.26)
+
+## 개발환경
+- `HuggingFace`, `Gemini-2.5`
+  - `GPT-4`는 유료라 사용 자제
+  - `ollama`는 PC 메모리 부족으로 (16GB인데 LLM 서버 다운됨) 일부만 사용
+- `Anaconda3`, `jupyter`
+- `streamlit`
+- `VSCode`
 
 ### 라이브러리 목록
 - `python 3.11` 기준 라이브러리 최신버전 사용
@@ -47,6 +50,12 @@
     ```
 --- 
 
-출처   
-`랭체인으로 LLM 기반의 AI 서비스 개발하기`, 서지영 지음
+#### 출처  
+`랭체인으로 LLM 기반의 AI 서비스 개발하기`, 서지영 지음  
 https://github.com/gilbutITbook/080413  
+
+---
+
+
+#### 참고  
+[study/book/랭체인으로 LLM 기반의 AI 서비스 개발하기.md](https://github.com/hana2set/study/blob/main/%EA%B8%B0%ED%83%80/book/%EB%9E%AD%EC%B2%B4%EC%9D%B8%EC%9C%BC%EB%A1%9C%20LLM%20%EA%B8%B0%EB%B0%98%EC%9D%98%20AI%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0.md)
